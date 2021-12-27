@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.main-title{
+    color:white;
+    width:500px;
+    margin:auto;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.main-board{
+    background-color: white;
+    width:1000px;
+    height: 600px;
+    margin:auto;
+    margin-top:30px;
+}
+
+.colors{
+    display:flex;
+    width:1000px;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.colorind{
+    width:100px;
+}
+
+.main-button{
+    width:150px;
+    height: 50px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.cleanboard:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+.cleanboard{
+    color:white;
+    background-color: rgb(95, 95, 95);
+    width:150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.footer{
+    width:150px;
+    color:white;
+    font-size: 20px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.colorind{
+    width:170px;
+    height: 50px;
+}
+
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#gray{
+    background-color: gray;
+}
+#red{
+    background-color: red;
+}
+#black{
+    background-color: black;
+}
+
+#blue:hover{
+    background-color: rgb(15, 104, 238);
+}
+#green:hover{
+    background-color: rgb(36, 233, 36);
+}
+#yellow:hover{
+    background-color: rgb(248, 248, 100);
+}
+#gray:hover{
+    background-color: rgb(182, 182, 182);
+}
+#red:hover{
+    background-color: rgb(240, 106, 106);
+}
+#black:hover{
+    background-color: rgb(73, 73, 73);
+}
+
