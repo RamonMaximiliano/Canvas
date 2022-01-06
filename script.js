@@ -13,8 +13,8 @@ let ctx = screen.getContext("2d");
 document.getElementById("canvas").addEventListener("mousedown", function mouseDown(e){
     drawActive = true
     //esta pegando posição inicial do mouse na hora que clica
-    mouseX = e.pageX - document.getElementById("canvas").offsetLeft;
-    mouseY = e.pageY - document.getElementById("canvas").offsetTop;
+    mouseX = e.pageX - screen.offsetLeft;
+    mouseY = e.pageY - screen.offsetTop;
     console.log("Mouse down")
     console.log(mouseX)
     console.log(mouseY)
@@ -68,11 +68,11 @@ for (let item of colors){
 console.log(currentColor)
  
 function draw(x, y){
-    let pointX = x - document.getElementById("canvas").offsetLeft;
-    let pointY = y - document.getElementById("canvas").offsetTop;
+    let pointX = x - screen.offsetLeft;
+    let pointY = y - screen.offsetTop;
 
     ctx.beginPath();
-    ctx.lineWidth = 5;
+    ctx.lineWidth = 2;
     ctx.lineJoin = "round";
     ctx.moveTo(mouseX, mouseY);
     ctx.lineTo(pointX, pointY);
